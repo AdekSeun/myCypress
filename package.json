@@ -1,0 +1,15 @@
+{
+    "name": "cypressauto",
+    "version": "1.0.0",
+    "description": "testing",
+    "main": "index.js",
+    "scripts": {
+        "cypressopen": "node_modules\\.bin\\cypress run",
+        "opencypress": "npm run cypressopen --"
+    },
+    "author": "Kunlepc",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^6.5.0"
+    }
+}
